@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar */
+header {
+    background: #222;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    header .brand {
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    header nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+        font-weight: bold;
+    }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+/* Content container */
+.container {
+    max-width: 900px;
+    margin: 60px auto 120px auto; /* leave room for footer */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Card style for sections */
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
