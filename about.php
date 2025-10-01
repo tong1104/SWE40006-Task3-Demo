@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $content = "
 <h1>About Me</h1>
 <div class='card'>
@@ -8,6 +8,7 @@ $content = "
 <div class='card'>
     <h3>💡 Skills</h3>
     <ul>
+        <li>C#</li>
         <li>Python</li>
         <li>Java</li>
         <li>SQL</li>
